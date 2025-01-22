@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: 350px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 50%;
+    height: 50%;
+
+}

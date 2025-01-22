@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 22vh;
+    background-color: #D9D9D9;
+}
+
+.content {
+    height: 56vh;
+    display: flex;
+}
+
+.menu-left {
+    width: 27vw;
+    background-color: #C0BDBD;
+}
+
+main {
+    width: 46vw;
+    background-color: #A4A4A4;
+}
+
+.blog {
+    width: 27vw;
+    background-color: #C0BDBD;
+}
+
+.footer {
+    height: 22vh;
+    background-color: #D9D9D9;
+}
