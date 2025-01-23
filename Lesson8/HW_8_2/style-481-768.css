@@ -1,0 +1,32 @@
+@media screen  and (min-width: 481px) and (max-width: 768px) {
+    .section__achievement {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin: 0 auto;
+        padding: 48px 24px;
+    }
+
+    .section__cards-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__cards-top {
+        display: flex;
+        gap: 24px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .section__cards-bottom {
+        display: flex;
+        gap: 24px;
+    }
+
+    .section__card {
+        width: 348px;
+    }
+}

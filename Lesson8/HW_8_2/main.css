@@ -7,10 +7,25 @@ body {
 .section__achievement {
     width: 1440px;
     display: flex;
-    justify-content: space-around;
-    gap: 32px;
     margin: 0 auto;
     padding: 64px 48px;
+}
+
+.section__cards-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.section__cards-top {
+    display: flex;
+    gap: 32px;
+    margin-left: 130px;
+    margin-right: 32px;
+}
+
+.section__cards-bottom {
+    display: flex;
+    gap: 32px;
 }
 
 .section__card {
