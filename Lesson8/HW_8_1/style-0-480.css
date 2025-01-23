@@ -1,0 +1,24 @@
+@media screen  and (min-width: 0) and (max-width: 480px) {
+    .main__container{
+        width: 375px;
+        padding: 32px 16px;
+        margin: 0 auto;
+    }
+
+    .main__img {
+        width: 343px;
+        height: 257px;
+    }
+
+    .main__cards-top {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    .main__cards-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
